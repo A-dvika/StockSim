@@ -1,0 +1,34 @@
+.sidebarContainer {
+    background: #cae0f2;
+    width: 280px;
+    height: 94vh;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 22px;
+    overflow-y: auto; /* Ensures the sidebar is scrollable if content overflows */
+}
+
+.userScore {
+    width: 224px;
+    height: 70px;
+    margin-left: 28px;
+    margin-top: 30px;
+    padding-top: 5px;
+}
+/* Add some button styling for consistency */
+.MuiButton-containedSuccess, .MuiButton-containedError {
+    color: #ffffff;
+    font-weight: bold;
+    margin: 5px 0; /* Reduced margin */
+    border-radius: 5px;
+}
+
+.MuiButton-containedSuccess {
+    background-color: #4caf50; /* Green for UP */
+}
+
+.MuiButton-containedError {
+    background-color: #f44336; /* Red for DOWN */
+}
